@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+/*---------------------------------------------NAVIGATION BAR----------------------------------------------*/
+.navbar{
+  justify-content: space-between;
+  background-color: rgb(78, 173, 78);
+  color: white;
+  padding: 5px 10px;
+}
+.navbar h2{
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+.nav-links a{
+  text-decoration: none;
+  color: inherit;
+  margin: 7px 15px;
+
+}
+.item:hover, .item.active{
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+/*-------------------------------------------Main Content--------------------------------------*/
+.content{
+  padding: 30px;
+  display: flex;
+}
+
+/*-------------------------------------------Debt Area--------------------------------------*/
+
+.debts-area{
+  margin-top: 30px;
+  padding: 15px 0px;
+}
+
+.debt-preview{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#debtor{
+  background-color: rgb(207, 241, 207);
+  color: white;
+
+}
+
+#debtor .debt-preview{
+  background-color: rgb(39, 163, 39);
+}
+
+#creditor{
+ background-color: rgb(224, 156, 156);
+ color: rgb(0, 0, 0);
+
+}
+
+#creditor .debt-preview{
+  background-color: indianred;
+}
+
+.type, .amount{
+  text-align: right;
+}
+
+button{
+  display:block;
+}
+
+.not-found a{
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
+}

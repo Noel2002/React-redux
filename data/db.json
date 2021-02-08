@@ -1,0 +1,46 @@
+{
+  "debts": [
+    {
+      "name": "Karake",
+      "type": "Debtor",
+      "amount": "100000",
+      "id": 4
+    },
+    {
+      "name": "uwimana",
+      "type": "Creditor",
+      "amount": "30000",
+      "id": 5
+    },
+    {
+      "name": "Mulisa",
+      "type": "Creditor",
+      "amount": "200",
+      "id": 6
+    },
+    {
+      "name": "Kamaliza ester",
+      "type": "Debtor",
+      "amount": "100000",
+      "id": 7
+    },
+    {
+      "name": "manishimwe",
+      "type": "Creditor",
+      "amount": "10000",
+      "id": 9
+    },
+    {
+      "name": "Muguraneza",
+      "type": "Debtor",
+      "amount": "2000",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "email": "berwanoel@gmail.com",
+      "password": "berwa123"
+    }
+  ]
+}
